@@ -1,0 +1,21 @@
+package stringManipulation;
+
+import java.util.Scanner;
+
+public class IntToString {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);  //Declaring Scanner variable to take input from user
+		 
+        System.out.println("Enter any number");
+
+        int a = sc.nextInt();         //Taking input from user
+
+        String str = String.valueOf(a);//using inbuilt function of string class
+
+        System.out.println("This is the conversion from Integer to String " + str);
+
+
+	}
+}
